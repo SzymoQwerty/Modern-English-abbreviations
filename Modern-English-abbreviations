@@ -1,0 +1,18 @@
+meme_dict = {
+        "CRINGE": "Something really weird or gross",
+        "LOL": "Rare reaction on something funny",
+        "CREEPY":"producing a nervous shivery apprehension",
+        "ROFL" :"rolling on floor laughing",
+        "SHEESH" :"be impressed or to express disbelief or exasperation",
+        "LMAO" :"Laughing My A$$ Off",
+        "BRB" :"Be right back",
+        "UWU" :"an emoticon depicting a cute face",
+        "UWWWWWU" :"an emoticon depicting a cute face (More emotional)"
+    
+} 
+        
+word = input("write word that you dont know what it means (USE BIG LETTERS!): ")
+if word in meme_dict.keys():
+    print(meme_dict[word])
+else:
+    print("There is no word like" , word)
